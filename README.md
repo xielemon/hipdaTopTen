@@ -4,10 +4,10 @@
 1.此处请用chrome抓取登录过程后填入
 ```java
 		// USE YOUR OWN USER NAME
-		map.put("username", "worenimamai");
+		map.put("username", "");
 		// USE YOUR OWN USER PASSWORD, U CAN GET IT THROUGH CAPTURE POST DATA
 		// WHEN U LOGIN ON CHROME
-		map.put("password", "b5523f18a092325c5d19f0809c262563");
+		map.put("password", "");
 ```
 
 2.hipda中 
