@@ -56,10 +56,10 @@ public class hipda {
 		map.put("referer", "http,//www.hi-pda.com/forum/index.php");
 		map.put("loginfield", "username");
 		// USE YOUR OWN USER NAME
-		map.put("username", "worenimamai");
+		map.put("username", "");
 		// USE YOUR OWN USER PASSWORD, U CAN GET IT THROUGH CAPTURE POST DATA
 		// WHEN U LOGIN ON CHROME
-		map.put("password", "b5523f18a092325c5d19f0809c262563");
+		map.put("password", "");
 		map.put("questionid", "0");
 		map.put("answer", "");
 		map.put("loginsubmit", "true");
