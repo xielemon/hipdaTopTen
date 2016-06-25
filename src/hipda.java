@@ -224,7 +224,7 @@ public class hipda {
 			Matcher formHash = formHashPattern.matcher(line);
 			if (formHash.matches() == true) {
 				line = formHash.group(0);
-				System.out.println("..........Getting formhash.........");
+				System.out.println("..........Getting formhash..........");
 				line = line.replaceAll("<a href=\"logging\\.php\\?action=logout\\&amp;formhash=", "");
 				line = line.replaceAll("\">退出</a>", "");
 				formhash = line;
