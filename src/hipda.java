@@ -130,7 +130,8 @@ public class hipda {
 			Matcher date = datePattern.matcher(line.toString().subSequence(0, line.length()));
 
 			if (title.matches() == true) {
-				writeContent = writeContent.append(title.group());
+				//Delate the invalid XML character in title
+				writeContent = writeContent.append(title.group().replaceAll("[\\x00-\\x08\\x0b-\\x0c\\x0e-\\x1f]", ""));
 
 			}
 			if (nums.matches() == true) {
